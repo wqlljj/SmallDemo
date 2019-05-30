@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "hello",
+      "pkg": "com.example.cloud.smalldemo.app.hello"
+    },
+    {
+      "uri": "lib.util",
+      "pkg": "com.example.cloud.smalldemo.lib.util"
+    }
+  ]
+}
+//gradlew cleanLib
+//gradlew cleanBundle
+//gradlew buildLib -q (-q是安静模式，可以让输出更好看，也可以不加)
+//gradlew buildBundle -q
+//gradlew -p app.main assembleRelease单独编译一个插件
